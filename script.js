@@ -1,18 +1,29 @@
-// document.getElementById("whatever").innerHTML = "Whatever we want!";
+/* 
 
-// document.getElementById("nickname").innerHTML = "Austin";
+Using the JavaScript file only (not using a CSS file)
 
-/*
-var el = document.createElement('div');
-el.innerHTML = "<p>Hello World!</p>"
+Change the background color of the entire document to red
+Change the background color of just the "about me" portion to blue
+Change the font-family of the entire document to sans-serif
+Add your nickname
+Add your favorites
+Add your hometown
 
-document.body.appendChild(el);
+Extra Credit (still only using JavaScript)
 
-var el2 = document.querySelector('div');
-var newEl = document.createElement('p');
+Iterate through each li and change the class to "listitem". Add a style tag that sets a rule for "listitem" to make the color red.
+Create a new img element and set its src attribute to a picture of you. Append that element to the page.
+
 */
 
+document.body.style.backgroundColor = 'red';
 
-document.body.style.backgroundColor = "red";
+document.querySelector('h1').style.background ='blue';
 
-document.getElementById("whatever").style.fontFamily = "sans-serif";
+document.body.style.fontFamily = 'sans-serif';
+
+document.getElementById('nickname').innerHTML = 'Mel';
+
+document.getElementById('favorites').innerHTML = 'Pizza, Sandwiches, Chocolate';
+
+document.getElementById('hometown').innerHTML = 'New York';
